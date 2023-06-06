@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Button from './button'
+import styles from "../styles/feedback.module.css"
 
 class Feedback extends Component {
     // Initial State
@@ -32,7 +33,7 @@ class Feedback extends Component {
                 <div>
                     <h1>Please Leave Feedback</h1>
 
-                    <div>
+                    <div className={styles.buttons__container}>
                         <Button buttonTitle="God" inclickHandler={this.counterGood}/>
                         <Button buttonTitle="Neutral" inclickHandler={this.counterNeutral}/>
                         <Button buttonTitle="Bad" inclickHandler={this.counterBad}/>
