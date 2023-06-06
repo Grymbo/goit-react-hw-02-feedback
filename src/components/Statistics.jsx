@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import styles from "../styles/statistics.module.css"
 
 class Statistics extends Component  {
     render() {
