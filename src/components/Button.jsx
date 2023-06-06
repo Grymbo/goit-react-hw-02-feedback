@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from "../styles/button.module.css"
 
 class Button extends Component {
 
@@ -8,7 +9,7 @@ class Button extends Component {
 
         return (
             <>
-                <button className={ StyleSheet.button } onClick={ onclickHandler }>
+                <button className={ styles.button } onClick={ onclickHandler }>
                     { buttonTitle }
                 </button>
             </>
